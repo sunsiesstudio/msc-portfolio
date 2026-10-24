@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GuestStay Kiosk, Martina Solés</title>
+  <meta name="description" content="Redesigning Guestline's self check-in kiosk from pilot to scalable white-label product. Check-in time down ~35%, self-service adoption from 30% to 50%.">
+  <meta property="og:image" content="https://framerusercontent.com/images/q38jc4fivjcLzTVvTMzyIIT58.png?width=1600">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="wrap nav">
+  <a class="nav-name" href="../">Martina Solés</a>
+  <nav aria-label="Main">
+    <ul>
+      <li><a href="../#work">Work</a></li>
+      <li><a href="../assets/Martina-Soles-CV.pdf">CV</a></li>
+      <li><a href="../#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section class="case-hero">
+    <a class="back" href="../#work">← All work</a>
+    <h1>Turning a kiosk pilot into a product hotels actually buy</h1>
+    <p class="lede">The GuestStay kiosk proved guests would check themselves in. But it was slower than the front desk, hid useful steps and made no money. I redesigned it into a white-label, accessible product that cuts queues and sells upgrades.</p>
+    <dl class="facts">
+      <div><dt>Role</dt><dd>Sole product designer</dd></div>
+      <div><dt>Team</dt><dd>PM, dev lead, 6 engineers</dd></div>
+      <div><dt>Timeline</dt><dd>Feb 2023 to Jun 2024</dd></div>
+      <div><dt>Platforms</dt><dd>Kiosk, tablet, mobile, desktop</dd></div>
+    </dl>
+  </section>
+
+  <div class="cover"><img src="https://framerusercontent.com/images/q38jc4fivjcLzTVvTMzyIIT58.png?width=2400" alt="Redesigned GuestStay kiosk check-in screens"></div>
+
+  <div class="results">
+    <div class="result"><b>~35% faster</b><span>Check-in, from about 7 minutes to 4.5</span></div>
+    <div class="result"><b>30% → 50%</b><span>Self-service adoption</span></div>
+    <div class="result"><b>~20%</b><span>Upsell conversion, a new revenue stream for hotels</span></div>
+    <div class="result"><b>~1 min</b><span>Check-out with no balance, down from about 5</span></div>
+    <div class="result"><b>Half</b><span>The staff interventions at the kiosk</span></div>
+    <div class="result"><b>45%</b><span>Of guests chose digital receipts or wallet passes</span></div>
+  </div>
+
+  <section class="case-section prose">
+    <h2>The problem</h2>
+    <p>The pilot did its job: it validated that guests wanted self check-in and that a kiosk could talk to the property management system. Hotels weren't convinced though. Guests had to re-enter details they'd already given, optional steps like card pre-authorisation and key cutting were hidden, there were no upsells, and staff still got pulled in to help.</p>
+    <p>Hoteliers were asking a fair question: why pay for a kiosk that does the front desk's job, but slower? My brief was to turn a validated prototype into a scalable product that cuts waits, makes money and flexes to each hotel's brand.</p>
+  </section>
+
+  <section class="case-section prose">
+    <h2>What I found</h2>
+    <p>I audited the full guest journey across booking, pre-arrival, arrival and departure, and interviewed hoteliers and staff. Three things stood out:</p>
+    <ul>
+      <li><strong>Expectation mismatch.</strong> Pre-arrival emails promised a faster check-in, then guests were asked for the same info again at the kiosk.</li>
+      <li><strong>Accessibility gaps.</strong> Screens were often mounted high and the on-screen keyboard took a third of the screen. Hard for kids, wheelchair users and shorter guests.</li>
+      <li><strong>Operational drag.</strong> Staff were troubleshooting kiosks instead of hosting, and hoteliers had no data to justify the investment.</li>
+    </ul>
+    <p>Competitor kiosks mostly just digitised the paper form. Very few did upsells, branding or accessibility well, so there was a clear gap.</p>
+  </section>
+  <figure class="wide">
+    <img src="https://framerusercontent.com/images/ZvQuW5x32xBNr4ytrTcxbnwWUs.jpg?width=2400" alt="Guest journey map across booking, pre-arrival, kiosk and departure" loading="lazy">
+    <figcaption>Journey audit across the four GuestStay touchpoints. The duplication between pre-arrival and kiosk was the biggest source of frustration.</figcaption>
+  </figure>
+
+  <section class="case-section prose">
+    <h2>Key decisions</h2>
+    <div class="decision">
+      <h3>Cut check-in from 8 to 10 screens down to 4 steps</h3>
+      <p>Merged reservation lookup and review, consolidated guest details into one screen with inline validation, and folded pre-authorisation, key cutting and upsells into the main flow instead of side flows.</p>
+    </div>
+    <div class="decision">
+      <h3>Treat upsells as part of the flow, not an ad</h3>
+      <p>Room upgrades, late check-out and breakfast appear as modular, skippable steps at the moment they're relevant. This is what turned the kiosk from a cost into a revenue line for hotels.</p>
+    </div>
+    <div class="decision">
+      <h3>Design for every height and ability</h3>
+      <p>A fixed screen structure (header, context, main, actions, keyboard) so guests never switch input mode unexpectedly, plus large targets and WCAG-compliant contrast and type.</p>
+    </div>
+    <div class="decision">
+      <h3>Go responsive and white-label instead of one tablet model</h3>
+      <p>The pilot was tied to a single device. I moved it to a responsive layout across kiosk, tablet, mobile and desktop, with configurable logo, colour and type so each hotel gets its own branded kiosk.</p>
+    </div>
+    <div class="decision">
+      <h3>Fix the words, not just the screens</h3>
+      <p>Replaced vague prompts like "Check in now!" with honest, brandable templates such as "Complete your details in 3 minutes to skip the queue".</p>
+    </div>
+  </section>
+
+  <figure class="wide">
+    <img src="https://framerusercontent.com/images/IN7FMXW1b5yJGhU3OWiIfsnow4.jpg?width=2400" alt="Redesigned four-step check-in flow" loading="lazy">
+    <figcaption>The new flow: four steps to check in, with optional services built in.</figcaption>
+  </figure>
+  <div class="pair">
+    <figure><img src="https://framerusercontent.com/images/Tioz7U6SY4PzUerRuCt55jp032s.png?width=1600" alt="Kiosk screen structure framework" loading="lazy"></figure>
+    <figure><img src="https://framerusercontent.com/images/Ds7Bpoctvusy1qhcqnWqwoTgM.png?width=1600" alt="Kiosk upsell and confirmation screens" loading="lazy"></figure>
+  </div>
+
+  <section class="case-section prose">
+    <h2>In the real world</h2>
+    <p>At Point A Hotels in the UK, kiosks captured 3,000 guest emails in the first 90 days, data that would otherwise have stayed with OTAs. At the Classik Hotel Collection in Berlin, the first German hotel to adopt them, 100% of guests were using the kiosk voluntarily within four weeks, and the group ordered more for other properties.</p>
+    <p>Across Guestline in 2024 there were 120,000 kiosk interactions, around 6,000 staff hours saved and 2.6% incremental revenue from upsells (<a href="https://www.hospitalitynet.org/news/4125468.html">HospitalityNet</a>).</p>
+  </section>
+  <figure class="wide">
+    <img src="https://framerusercontent.com/images/LEHYPk0EXqzqy47udkbfK4AR5DA.png?width=2400" alt="GuestStay kiosk installed at Point A Hotels" loading="lazy">
+  </figure>
+
+  <section class="case-section prose">
+    <h2>What I'd take from it</h2>
+    <p>The kiosk only became valuable once it stopped being a standalone tool. It now shares one design system with the Portal and the booking engine, so a guest gets the same experience from booking to check-out, and hotels get one product to configure. Next up is personalisation, like offering late check-out when a guest's flight is delayed.</p>
+  </section>
+
+  <nav class="next" aria-label="More work">
+    <a href="../#work"><small>Back to</small><strong>All work</strong></a>
+    <a href="gueststay-portal.html"><small>Next project</small><strong>GuestStay Portal</strong></a>
+  </nav>
+</main>
+</body>
+</html>
